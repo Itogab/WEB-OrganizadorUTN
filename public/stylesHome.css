@@ -1,0 +1,76 @@
+html{
+    --azul:#0000FF;
+    background-image: url(images/fondo.png);
+    height: 100vh;
+}
+
+body{
+    height: 80%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.contador{
+    font-size:1.3em;
+    font-weight: 900;
+}
+
+.helper >div{
+    box-sizing: content-box;
+    font-size: large;
+    text-align: center;
+    user-select: none;
+    padding: 10px;
+    margin: 2px;
+}
+.wrapper{
+    flex: 1;
+}
+
+.materia{
+    font-size: large;
+    text-align: center;
+    background-color: aliceblue;
+    user-select: none;
+    padding: 10px;
+    margin: 2px;
+}
+
+.bloqueada{
+    background-color: rgb(111, 117, 122);
+    color: white;
+}
+
+.aprobada{
+    background-color: rgb(51, 129, 41);
+    color:white;
+    cursor:pointer;
+}
+
+.cursada{
+    background-color: rgb(76, 252, 53);
+    color:black;
+    cursor:pointer;
+}
+
+.habilitada {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.podriaCursar{
+    background-color: rgb(109, 109, 0);
+}
+
+.anio{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
